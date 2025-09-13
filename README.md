@@ -28,9 +28,9 @@ The questions that will be answered as part of this model is:
 * From the correlation matrix, the odometer rearing does not seem to have much of an affect on the price
 
   **Data Preparation**
-  Remove price outliers and select the data in the 99th percentile.
-  Drop all the columns mentioned above
-  Drop all rows with null values
+  * Remove price outliers and select the data in the 99th percentile.
+  * Drop all the columns mentioned above
+  * Drop all rows with null values
   
   
 
