@@ -9,7 +9,7 @@ The questions that will be answered as part of this model is:
 **Data Understanding**
 
 * The data shared has 426880 rows and 18 features
-* Of these features, 14 are catagorical and only 8 are numeric 
+* Of these features, 14 are categorical and only 8 are numeric 
 * The price seems to have outliers and the top 1% needs to be filtered out.
 * The percentage of missing data for the below fields make them unusable.
   * size:	71.767476
@@ -19,5 +19,11 @@ The questions that will be answered as part of this model is:
   * drive:	30.586347
   * paint_color:	30.501078
   * type:	21.752717
+* The below categorical features have too many unique values and need to be removed.
+  * VIN	118246
+  * model	29649
+  * region	404
+  * state	51
+  * manufacturer	42
 
 
