@@ -31,8 +31,21 @@ The questions that will be answered as part of this model is:
   * Remove price outliers and select the data in the 99th percentile.
   * Drop all the columns mentioned above
   * Drop all rows with null values
-  * Encode categorical data
-  
+    
+**Data Modeling**
+ * Scale the numerical features
+ * Encode the categorical features
+ * Split the data to test and train
+ * Cross validate with  Ridge Regression, using GridSearchCV to find best alpha
+ * Analyse the coefficients
+
+**Findings**
+
+ * Newer cars are priced higher(~6200 more per year)
+ * Diesel with manual transmission can be priced highest
+ * Gas with other transmission can be priced higher than gas with manual transmission
+ * Diesel with other transmission significantly reduces value
+   
   
 
 
