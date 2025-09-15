@@ -45,6 +45,8 @@ The questions that will be answered as part of this model is:
  * Diesel with manual transmission can be priced highest
  * Gas with other transmission can be priced higher than gas with manual transmission
  * Diesel with other transmission significantly reduces value
+ * Electric transmission manual also lowers cost, but not as much as Diesel with other transmissio
+
    
   
 
