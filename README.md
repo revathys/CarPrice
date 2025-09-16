@@ -40,6 +40,7 @@ The questions that will be answered as part of this model is:
  * Analyse the coefficients
    
 ![Correlation Matrix](./images/correlation.png)
+
 **Findings**
 
  * Newer cars are priced higher(~6200 more per year)
