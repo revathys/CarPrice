@@ -25,7 +25,7 @@ The questions that will be answered as part of this model is:
   * region	404
   * state	51
   * manufacturer	42
-* From the correlation matrix, the odometer rearing does not seem to have much of an affect on the price
+* From the correlation matrix, the odometer reading does not seem to have much of an affect on the price
 
 **Data Preparation**
   * Remove price outliers and select the data in the 99th percentile.
@@ -45,7 +45,7 @@ The questions that will be answered as part of this model is:
  * Diesel with manual transmission can be priced highest
  * Gas with other transmission can be priced higher than gas with manual transmission
  * Diesel with other transmission significantly reduces value
- * Electric transmission manual also lowers cost, but not as much as Diesel with other transmissio
+ * Electric transmission manual also lowers cost, but not as much as Diesel with other transmission
 
    
   
