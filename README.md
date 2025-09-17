@@ -12,19 +12,21 @@ The questions that will be answered as part of this model is:
 * Of these features, 14 are categorical and only 8 are numeric 
 * The price seems to have outliers and the top 1% needs to be filtered out.
 * The percentage of missing data for the below fields make them unusable.
-  * size:	71.767476
   * cylinders:	41.622470
-  * condition:	40.785232
   * VIN:	37.725356
   * drive:	30.586347
   * paint_color:	30.501078
   * type:	21.752717
+* The percentage of missing data for the below fields make them unusable. Since they affect the price, fill the missing values with 'Missing'
+  * size:	71.767476
+  * condition:	40.785232
 * The below categorical features have too many unique values and need to be removed.
   * VIN	118246
-  * model	29649
   * region	404
   * state	51
-  * manufacturer	42
+* The below categorical features have too many unique values and so the top 20 needs to be maintaind and rest will be put under 'Other'
+  *   model	29649
+  *   manufacturer	42
 * From the correlation matrix, the odometer reading does not seem to have much of an affect on the price
 
 **Data Preparation**
@@ -38,8 +40,9 @@ The questions that will be answered as part of this model is:
  * Split the data to test and train
  * Cross validate with  Ridge Regression, using GridSearchCV to find best alpha
  * Analyse the coefficients
-   
-![Correlation Matrix](./images/correlation.png)
+
+**Evaluation**
+
 
 **Findings**
 
