@@ -5,8 +5,8 @@ The objective of this project is to create an analytic model that predicts the r
 The questions that will be answered as part of this model is:
   * What are the features affecting the sale price of a used car?
   * What is the predicted sales price for the car?
-  
-Please find the Jupiter note [here](https://pages.github.com/).
+
+Please find the Jupyter note [here](https://github.com/revathys/CarPrice/blob/main/prompt_II.ipynb).
 
 **Business Recommendation**
      
