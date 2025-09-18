@@ -1,6 +1,7 @@
 # CarPrice
 
-**Business Understanding**
+# <ins> **Business Understanding** </ins>
+
 The objective of this project is to create an analytic model that predicts the resale value of cars based on various features. 
 The questions that will be answered as part of this model is:
   * What are the features affecting the sale price of a used car?
@@ -8,13 +9,14 @@ The questions that will be answered as part of this model is:
 
 Please find the Jupyter note [here](https://github.com/revathys/CarPrice/blob/main/prompt_II.ipynb).
 
-**Business Recommendation**
+# <ins> **Business Recommendation** </ins>
      
- Focus inventory strategy on trucks and convertables, electric/diesel vehicles, and cars in new/like new condition, while pricing more aggressively on Wagons, hatchbacks, and lower-condition vehicles.
+ Focus inventory strategy on trucks and convertables and offroad vehicles. Electric and Diesel vehicles should also be on the list. Focus on cars in new or like new condition.
+ Price more aggressively on Wagons, hatchbacks, and lower-condition vehicles. They affect price negatively.
  
-**Summary of Findings**
+## <ins>**Summary of Findings**</ins>
 
-**Features associated with higher prices**
+### **Features associated with higher prices**
 
 1. Vehicle Type
 
@@ -36,7 +38,7 @@ Please find the Jupyter note [here](https://github.com/revathys/CarPrice/blob/ma
 
    - RAM (+$3,841) and Wrangler (+$3,376) have strong resale value.
     
-**Features associated with lower prices**
+### **Features associated with lower prices**
 
 1.   Condition
 
